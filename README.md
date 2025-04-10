@@ -62,7 +62,7 @@ This is a front-end internship assignment project. It’s a simple and responsiv
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/Nishu-18/shoping-website.git
+git clone https://github.com/Nishu-18/shoping_website.git
 
 # 2. Move into project folder
 cd shopping-app
