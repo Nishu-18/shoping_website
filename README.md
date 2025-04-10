@@ -9,7 +9,7 @@ This is a front-end internship assignment project. It’s a simple and responsiv
 - **React.js (Vite)**
 - **React Router v6**
 - **React Hooks**
-- **Plain CSS (mobile-first responsive design)**
+- **Plain CSS
 - **Fake Store API** — [https://fakestoreapi.com](https://fakestoreapi.com)
 
 ---
@@ -32,8 +32,7 @@ This is a front-end internship assignment project. It’s a simple and responsiv
 - Fetches all products using `/products`.
 - Categories displayed as buttons using `/products/categories`.
 - Filters products by category using `/products/category/:name`.
-- Responsive grid layout (mobile-first).
-- Optional search bar (if added).
+- Responsive grid layout.
 
 ---
 
@@ -65,7 +64,7 @@ This is a front-end internship assignment project. It’s a simple and responsiv
 git clone https://github.com/Nishu-18/shoping_website.git
 
 # 2. Move into project folder
-cd shopping-app
+cd shoping_website
 
 # 3. Install dependencies
 npm install
