@@ -55,8 +55,8 @@ const Cart = () => {
 
       {cart.length > 0 && (
         <div className="cart-footer">
-          <p>Total: <strong>${total.toFixed(2)}</strong></p>
-          <button onClick={handleCheckout}>Checkout</button>
+          <p className="amt">Total: <strong>${total.toFixed(2)}</strong></p>
+          <button className="checkout" onClick={handleCheckout}>Checkout</button>
         </div>
       )}
 

@@ -74,6 +74,10 @@ header a:hover {
 
 }
 
+form{
+  text-align: center;
+}
+
 
 
 .card h4 {
@@ -156,6 +160,26 @@ header a:hover {
   font-size: 25px;
 }
  @media(max-width:1025px){
+ form{
+  margin-top: 150px;
+  max-width: 700px;
+  height: 700px;
+  text-align: center;
+
+  font-size: 40px;
+  margin-right: 100px;
+ }
+ input{
+  font-size: 20px;
+  padding: 25px;
+  margin-top: 30px;
+ }
+ .loginbtn{
+  margin-top: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  padding: 25px;
+ }
   .text{
     margin-left: 50px;
     margin-top: 80px;
@@ -244,7 +268,7 @@ header a:hover {
 
  .cart-container {
   padding: 2rem;
-  max-width: 1000px;
+  max-width: 100%;
   margin: auto;
 }
 
@@ -345,20 +369,28 @@ header a:hover {
   .cart-table thead {
     display: none;
   }
-
+ 
   .cart-table tr {
     display: block;
     margin-bottom: 1.5rem;
     border: 1px solid #eee;
     border-radius: 10px;
     padding: 1rem;
+    
   }
-
+  .trash{
+    font-size: 35px;
+    color: red;
+  }
+  .popup{
+    font-size: 35px;
+  }
   .cart-table td {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.6rem 0;
+    font-size: 35px;
   }
 
   .cart-table td::before {
@@ -383,11 +415,33 @@ header a:hover {
   }
 
   .cart-footer p {
-    font-size: 1.1rem;
+    font-size: 35px;
   }
 
   .cart-footer button {
     width: 100%;
+    padding: 20px;
+    font-size: 35px;
   }
 }
 
+.error-popup {
+  background-color: #ff4d4d;
+  font-size: 20px;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  animation: fadeInOut 4s ease forwards;
+}
+
+/* @keyframes fadeInOut {
+  0% { opacity: 0; transform: translateY(-10px); }
+  10% { opacity: 1; transform: translateY(0); }
+  90% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+} */
